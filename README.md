@@ -8,7 +8,7 @@
 <br />
 
 <h2>Thought behind this Idea</h2>
- In The current shopping apps, customer often feels somewhat unfaithfull/uninterested in certain products because of the following reasons :
+ In The current shopping apps, customer often feels somewhat unfaithfull/uninterested in certain products because of the following reasons:-
  <br/>
  
  ▸ The size/appearance of the product may not suit well as per our requirements; for eg: furniture, equipments ,etc<br/>
