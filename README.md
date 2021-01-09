@@ -37,7 +37,7 @@ There are three features mainly in this demo
   
 • <b>Sample Review</b>
 <br/>
-<span><img src="./8.png" width="150" alt="icon"> <img src="./9.png" width="150" alt="icon"></span>
+<span><img src="./10.png" width="150" alt="icon"> <img src="./9.png" width="150" alt="icon"></span>
   <br/>
   This is where a person can feel the presence of a product (say furniture , electronic apliances) in thier own surrounding.<br/>
   With this feature our thought was to convey a mean for a person to have a augmented reality based experience of the shape,size,appearance
