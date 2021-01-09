@@ -1,2 +1,2 @@
 # Visionaries
-<img src="./augmented-reality.png" width="350" alt="accessibility text">
+<img src="./augmented-reality.png" width="150" alt="icon">
