@@ -18,4 +18,10 @@ struct Constants {
     var pikachu = "pikachu1"
     var bulbasaur = "bulbasaur1"
     var ship = "ship"
+    var wheelbarrow = "wheelbarrow copy"
+    var chair = "chair_swan copy"
+    var fender = "fender_stratocaster copy"
+    var gramophone = "gramophone copy"
+    var tv = "tv_retro copy"
 }
+

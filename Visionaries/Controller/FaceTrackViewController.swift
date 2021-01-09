@@ -28,9 +28,9 @@ class FaceTrackViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        let configuratio = ARFaceTrackingConfiguration()
+        let configuration = ARFaceTrackingConfiguration()
+        sceneView.session.run(configuration)
         
-        sceneView.session.run(configuratio)
         sceneView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap(_:))))
     }
     

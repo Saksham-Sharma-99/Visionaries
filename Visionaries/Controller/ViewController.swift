@@ -34,7 +34,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         if let imageToTrack = ARReferenceImage.referenceImages(inGroupNamed: "PokemonCards", bundle: Bundle.main) {
             configuration.trackingImages = imageToTrack
-            configuration.maximumNumberOfTrackedImages = 3
+            configuration.maximumNumberOfTrackedImages = 4
             
             print("images successfully added")
             

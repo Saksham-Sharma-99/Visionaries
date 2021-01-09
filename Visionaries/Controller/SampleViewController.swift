@@ -27,9 +27,7 @@ class SampleViewController: UIViewController, ARSCNViewDelegate, UITextFieldDele
         
         // Set the view's delegate
         sceneView.delegate = self
-        
-        // Show statistics such as fps and timing information
-        sceneView.showsStatistics = true
+        sceneView.autoenablesDefaultLighting = true
         
         // Create a new scene
         let scene = SCNScene(named: "art.scnassets/\(object).scn")!
@@ -59,22 +57,20 @@ class SampleViewController: UIViewController, ARSCNViewDelegate, UITextFieldDele
     
     func textFieldDidEndEditing(_ textField: UITextField, reason: UITextField.DidEndEditingReason) {
         let dist = textField.text!
-        print(sceneView.scene.rootNode.childNodes.first)
+        let pos = sceneView.scene.rootNode.childNodes.first?.position
         switch textField {
         case xTF:
             if let d = Float(dist){
-                sceneView.scene.rootNode.childNodes.first?.position.x =
-                    sceneView.scene.rootNode.childNodes.first?.position.x ?? 0 + Float(d)
+                sceneView.scene.rootNode.childNodes.first?.position = SCNVector3Make( pos?.x ?? 0 + Float(d), pos?.y ?? 0, pos?.z ?? 0)
+                   
             }
         case yTF:
             if let d = Float(dist){
-                sceneView.scene.rootNode.childNodes.first?.position.y =
-                    sceneView.scene.rootNode.childNodes.first?.position.y ?? 0 + Float(d)
+                sceneView.scene.rootNode.childNodes.first?.position = SCNVector3Make( pos?.x ?? 0, pos?.y ?? 0 + Float(d), pos?.z ?? 0)
             }
         case zTF:
             if let d = Float(dist){
-                sceneView.scene.rootNode.childNodes.first?.position.z =
-                    sceneView.scene.rootNode.childNodes.first?.position.z ?? 0 + Float(d)
+                sceneView.scene.rootNode.childNodes.first?.position = SCNVector3Make( pos?.x ?? 0 , pos?.y ?? 0, pos?.z ?? 0 + Float(d))
             }
         default:
             break;

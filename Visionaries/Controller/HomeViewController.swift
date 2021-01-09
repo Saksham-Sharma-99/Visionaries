@@ -20,13 +20,15 @@ class CollectionViewCell: UICollectionViewCell {
 
 }
 
+
+
 class HomeViewController: UIViewController {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var picsCollection: UICollectionView!
     var object = String()
     
-    var images : [UIImage] = [#imageLiteral(resourceName: "squirtle1"),#imageLiteral(resourceName: "pikachu1"),#imageLiteral(resourceName: "bulbasaur1"),#imageLiteral(resourceName: "spaceship")]
+    var images : [UIImage] = [#imageLiteral(resourceName: "squirtle1"),#imageLiteral(resourceName: "pikachu1"),#imageLiteral(resourceName: "bulbasaur1"),#imageLiteral(resourceName: "spaceship"),#imageLiteral(resourceName: "chair"),#imageLiteral(resourceName: "gramophone"),#imageLiteral(resourceName: "tv"),#imageLiteral(resourceName: "kisspng-fender-jazzmaster-squier-deluxe-hot-rails-stratoca-5afe14c8796646.1121173215266009044973"),#imageLiteral(resourceName: "wb")]
     var constants = Constants()
 
     override func viewDidLoad() {
@@ -69,6 +71,16 @@ extension HomeViewController : UICollectionViewDelegate , UICollectionViewDataSo
             self.object = constants.bulbasaur
         case 3:
             self.object = constants.ship
+        case 4:
+            self.object = constants.chair
+        case 5:
+            self.object = constants.gramophone
+        case 6:
+            self.object = constants.tv
+        case 7:
+            self.object = constants.fender
+        case 8:
+            self.object = constants.wheelbarrow
         default:
             break;
         }
