@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		407B4CCD24D5FA1F001B36CE /* Pokemon Detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		407B4CCD24D5FA1F001B36CE /* Visionaries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visionaries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		407B4CD024D5FA1F001B36CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		407B4CD224D5FA1F001B36CE /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		407B4CD424D5FA1F001B36CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		407B4CC424D5FA1F001B36CE = {
 			isa = PBXGroup;
 			children = (
-				407B4CCF24D5FA1F001B36CE /* Pokemon Detection */,
+				407B4CCF24D5FA1F001B36CE /* Visionaries */,
 				407B4CCE24D5FA1F001B36CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +58,12 @@
 		407B4CCE24D5FA1F001B36CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				407B4CCD24D5FA1F001B36CE /* Pokemon Detection.app */,
+				407B4CCD24D5FA1F001B36CE /* Visionaries.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		407B4CCF24D5FA1F001B36CE /* Pokemon Detection */ = {
+		407B4CCF24D5FA1F001B36CE /* Visionaries */ = {
 			isa = PBXGroup;
 			children = (
 				407B4CD024D5FA1F001B36CE /* AppDelegate.swift */,
@@ -74,7 +74,7 @@
 				407B4CD224D5FA1F001B36CE /* art.scnassets */,
 				407B4CDE24D5FA21001B36CE /* Info.plist */,
 			);
-			path = "Pokemon Detection";
+			path = Visionaries;
 			sourceTree = "<group>";
 		};
 		40B1CDBC25A90421002FE669 /* Model */ = {
@@ -109,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		407B4CCC24D5FA1F001B36CE /* Pokemon Detection */ = {
+		407B4CCC24D5FA1F001B36CE /* Visionaries */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 407B4CE124D5FA21001B36CE /* Build configuration list for PBXNativeTarget "Pokemon Detection" */;
+			buildConfigurationList = 407B4CE124D5FA21001B36CE /* Build configuration list for PBXNativeTarget "Visionaries" */;
 			buildPhases = (
 				407B4CC924D5FA1F001B36CE /* Sources */,
 				407B4CCA24D5FA1F001B36CE /* Frameworks */,
@@ -121,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = "Pokemon Detection";
+			name = Visionaries;
 			productName = "Pokemon Detection";
-			productReference = 407B4CCD24D5FA1F001B36CE /* Pokemon Detection.app */;
+			productReference = 407B4CCD24D5FA1F001B36CE /* Visionaries.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 407B4CC824D5FA1F001B36CE /* Build configuration list for PBXProject "Pokemon Detection" */;
+			buildConfigurationList = 407B4CC824D5FA1F001B36CE /* Build configuration list for PBXProject "Visionaries" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -154,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				407B4CCC24D5FA1F001B36CE /* Pokemon Detection */,
+				407B4CCC24D5FA1F001B36CE /* Visionaries */,
 			);
 		};
 /* End PBXProject section */
@@ -332,7 +332,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8T33N4X96X;
-				INFOPLIST_FILE = "Pokemon Detection/Info.plist";
+				INFOPLIST_FILE = Visionaries/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -351,7 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8T33N4X96X;
-				INFOPLIST_FILE = "Pokemon Detection/Info.plist";
+				INFOPLIST_FILE = Visionaries/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -367,7 +367,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		407B4CC824D5FA1F001B36CE /* Build configuration list for PBXProject "Pokemon Detection" */ = {
+		407B4CC824D5FA1F001B36CE /* Build configuration list for PBXProject "Visionaries" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				407B4CDF24D5FA21001B36CE /* Debug */,
@@ -376,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		407B4CE124D5FA21001B36CE /* Build configuration list for PBXNativeTarget "Pokemon Detection" */ = {
+		407B4CE124D5FA21001B36CE /* Build configuration list for PBXNativeTarget "Visionaries" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				407B4CE224D5FA21001B36CE /* Debug */,

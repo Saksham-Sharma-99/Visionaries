@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Pokemon Detection
 //
-//  Created by Saksham Sharma on 02/08/20.
-//  Copyright © 2020 sharma. All rights reserved.
+//  Created by Saksham Sharma on 09/01/21.
+//  Copyright © 2021 sharma. All rights reserved.
 //
 
 import UIKit
