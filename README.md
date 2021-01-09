@@ -4,6 +4,12 @@
 <br />
 
 <h2>About the app</h2>
+▸ This is an ios swift5 made Augmented Reality and ML based application (extension .ipa)<br/>
+▸ To run it on a simulator u need to have any apple computer with xcode installed ;
+  Note: AR featuers doesn't work on a simulator for that you need to have an iphone or an ipad running ios 14 or higher <br/>
+▸A demo video is included in this repository just in case you dont have an ios device or cant install it because of any reason<br/>
+
+
 
 <br />
 
